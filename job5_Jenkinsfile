@@ -1,3 +1,8 @@
+@Library('jenkins-pipeline-library') _
+
+installTool ‘jdk-11.0.12_linux-x64_bin’
+installTool ‘jdk-11.0.12’
+
 pipeline{
 	agent any
 	stages{
