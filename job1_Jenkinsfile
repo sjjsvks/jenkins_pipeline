@@ -2,19 +2,29 @@ pipeline{
 	agent any
 	stages{
 		stage('Stage-1'){
-			print "Inside Stage-1"
+			steps{
+				print "Inside Stage-1"
+			}
 		}
 		stage('Stage-2'){
-			print "Inside Stage-2"
+			steps{
+				print "Inside Stage-2"
+			}
 		}
 		stage('Stage-3'){
-			print "Inside Stage-3"
+			steps{
+				print "Inside Stage-3"
+			}
 		}
 		stage('Stage-4'){
-			print "Inside Stage-4"
+			steps{
+				print "Inside Stage-4"
+			}
 		}
 		stage('Stage-5'){
-			print "Inside Stage-5"
+			steps{
+				print "Inside Stage-5"
+			}
 		}
 	}
 }
